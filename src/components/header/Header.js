@@ -113,7 +113,7 @@ export default function Header({ mode }) {
                     <input type="date" />
                     <input type="date" />
                   </div>
-                  <button className="want">Хочу забронировать</button>
+                  <a href="https://wa.me/996220243486" target={"_blank"} > <button className="want">Хочу забронировать </button></a>
                 </div>
                 <div className="basket">
                   <div className="bas">

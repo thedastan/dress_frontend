@@ -75,7 +75,7 @@ export default function DressDetail() {
                 }
               }}
             >
-              {showBasket ? "Добавьлено" : "Забронировать"}
+              {showBasket ? "Добавлено" : "Забронировать"}
             </button>
           </div>
         </div>
