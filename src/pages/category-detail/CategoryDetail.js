@@ -10,7 +10,7 @@ export default function CategoryDetail() {
 
   useEffect(() => {
     axios(
-      `https://nurba96.pythonanywhere.com/rentals/category_dress/${id}/`
+      `https://nurila.pythonanywhere.com/rentals/category_dress/${id}/`
     ).then(({ data }) => {
       console.log(data);
       setData(data);
