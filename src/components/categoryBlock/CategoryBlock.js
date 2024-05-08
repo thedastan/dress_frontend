@@ -7,7 +7,7 @@ export default function CategoryBlock() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios("https://nurba96.pythonanywhere.com/rentals/category/").then(
+    axios("https://nurila.pythonanywhere.com//rentals/category/").then(
       (data) => {
         setData(data.data);
         console.log(data);
