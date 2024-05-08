@@ -10,7 +10,7 @@ export default function DressDetail() {
   const { id } = useParams();
 
   useEffect(() => {
-    axios(`https://nurba96.pythonanywhere.com/rentals/dress/${id}/`).then(
+    axios(`https://nurila.pythonanywhere.com/rentals/dress/${id}/`).then(
       ({ data }) => {
         console.log(data);
         setDress(data);
